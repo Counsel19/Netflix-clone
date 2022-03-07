@@ -15,7 +15,7 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const isInvalid = firstName === "" || email === "" || password === "";
+  let isInvalid = firstName === "" || email === "" || password === "";
 
   const handleSignUp = async (event) => {
     event.preventDefault();
@@ -23,10 +23,11 @@ const Signup = () => {
     //Firebase Stuff
     try {
       setError("")
+      isInvalid = false;
       const result = await createUserWithEmailAndPassword(auth, email, password);
       await updateProfile(result.user, {
         displayName: firstName,
-        photoUrl: Math.floor(Math.random() * 5) + 1,
+        photoURL: Math.floor(Math.random() * 5) + 1,
       });
       navigate(ROUTES.BROWSE);
     } catch (error) {
@@ -34,6 +35,7 @@ const Signup = () => {
       setEmail('')
       setPassword('')
       setError(error.message)
+      isInvalid = true;
     } 
   };
   return (

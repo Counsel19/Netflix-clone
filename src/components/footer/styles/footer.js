@@ -36,21 +36,21 @@ export const Link = styled.a`
     margin-bottom: 20px;
     font-size: 14px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
 `;
 
 export const Title = styled.p`
     font-size: 16px;  
     color: #757575;
     margin-bottom: 40px;
-    font-weight: bolder;
+    font-weight: bold;
 `;
 
 export const Text = styled.p`
     font-size: 13px;  
     color: #757575;
     margin-bottom: 40px;
-    font-weight: bold;
+    font-weight: normal;
 `;
 
 export const Break = styled.p`

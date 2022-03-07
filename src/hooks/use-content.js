@@ -8,7 +8,6 @@ export default function useContent( target ) {
   const { db } = useContext(FirebaseContext);
 
   useEffect(() => {
-      console.log(target);
     const collectionRef = collection(db, target);
 
     const getData = async () => {
