@@ -19,8 +19,7 @@ export function seedDatabase(firebase) {
     /* Series
       ============================================ */
     // Documentaries
-    
-    
+
     addDoc(seriesCol, {
         id: getUUID(),
         title: 'Tiger King',
