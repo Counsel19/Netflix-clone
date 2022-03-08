@@ -1,8 +1,10 @@
 import React, { useContext, useState, useEffect } from "react";
 import { SelectProfileContainer } from "./profiles";
+import Fuse from 'fuse.js';
 
 import { FirebaseContext } from "../context/firebase";
-import { Loading, Header, Card } from "../components";
+import { Loading, Header, Card, Player } from "../components";
+import { FooterContainer } from './'
 import * as ROUTES from "../constants/routes";
 import logo from "../logo.svg";
 
@@ -20,12 +22,29 @@ export function BrowseContainer({ slides }) {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 4000)
   }, [profile.displayName]);
 
   useEffect(() => {
     setSlideRows(slides[category]);
+
+ 
   }, [slides, category]);
+
+
+  useEffect(() => {
+
+    const fuse = new Fuse(slideRows, {keys: ['data.description', 'data.title', 'data.genre']},)
+
+    const results = fuse.search(searchTerm).map(({ item }) => item)
+   
+    if (slideRows.length > 0 && searchTerm.length > 3  && results.length > 0){
+      setSlideRows(results);
+    } else{
+      setSlideRows(slides[category]);
+    }
+
+   }, [searchTerm])
 
 
   return profile.displayName ? (
@@ -98,15 +117,17 @@ export function BrowseContainer({ slides }) {
                 </Card.Item>
               ))}
             </Card.Entities>
-            {/* <Card.Feature category={category}>
+            <Card.Feature category={category}>
               <Player>
                 <Player.Button />
                 <Player.Video src="/videos/bunny.mp4" />
               </Player>
-            </Card.Feature> */}
+            </Card.Feature>
           </Card>
         ))}
       </Card.Group>
+
+      <FooterContainer />
     </>
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />

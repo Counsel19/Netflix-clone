@@ -41,7 +41,9 @@ Header.Search = function HeaderSearch({
   ...restProps
 }) {
   const [searchActive, setSearchActive] = useState(false);
+  
   return (
+    
     <Search {...restProps}>
       <SearchIcon
         onClick={() => setSearchActive((searchActive) => !searchActive)}
