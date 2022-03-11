@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Jumbotron /> renders the <Jumbotron /> with populated data 1`] = `
+<div
+  class="jumbotron__Container-sc-tihwqv-6 dPArq"
+>
+  <div
+    class="jumbotron__Item-sc-tihwqv-0 dLfgbx"
+  >
+    <div
+      class="jumbotron__Inner-sc-tihwqv-1 fNdoXS"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <h1
+          class="jumbotron__Title-sc-tihwqv-3 bKXkoU"
+        >
+          Enjoy on your TV.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-tihwqv-4 EboBR"
+        >
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <img
+          class="jumbotron__Image-sc-tihwqv-5 ksyTgQ"
+          data-testid="jumbotron-image"
+          src="/images/misc/home-tv.jpg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="jumbotron__Item-sc-tihwqv-0 dLfgbx"
+  >
+    <div
+      class="jumbotron__Inner-sc-tihwqv-1 dJsRZb"
+      direction="row-reverse"
+    >
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <h1
+          class="jumbotron__Title-sc-tihwqv-3 bKXkoU"
+        >
+          Download your programmes to watch on the go.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-tihwqv-4 EboBR"
+        >
+          Save your data and watch all your favourites offline.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <img
+          class="jumbotron__Image-sc-tihwqv-5 ksyTgQ"
+          data-testid="jumbotron-image"
+          src="/images/misc/home-mobile.jpg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="jumbotron__Item-sc-tihwqv-0 dLfgbx"
+  >
+    <div
+      class="jumbotron__Inner-sc-tihwqv-1 fNdoXS"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <h1
+          class="jumbotron__Title-sc-tihwqv-3 bKXkoU"
+        >
+          Watch everywhere.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-tihwqv-4 EboBR"
+        >
+          Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <img
+          class="jumbotron__Image-sc-tihwqv-5 ksyTgQ"
+          data-testid="jumbotron-image"
+          src="/images/misc/home-imac.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Jumbotron /> renders the <Jumbotron /> with populated data but without a direction 1`] = `
+<div
+  class="jumbotron__Container-sc-tihwqv-6 dPArq"
+>
+  <div
+    class="jumbotron__Item-sc-tihwqv-0 dLfgbx"
+    data-testid="1-jumbotron-default-direction"
+  >
+    <div
+      class="jumbotron__Inner-sc-tihwqv-1 fNdoXS"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <h1
+          class="jumbotron__Title-sc-tihwqv-3 bKXkoU"
+        >
+          Enjoy on your TV.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-tihwqv-4 EboBR"
+        >
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <img
+          class="jumbotron__Image-sc-tihwqv-5 ksyTgQ"
+          data-testid="jumbotron-image"
+          src="/images/misc/home-tv.jpg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="jumbotron__Item-sc-tihwqv-0 dLfgbx"
+    data-testid="2-jumbotron-default-direction"
+  >
+    <div
+      class="jumbotron__Inner-sc-tihwqv-1 fNdoXS"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <h1
+          class="jumbotron__Title-sc-tihwqv-3 bKXkoU"
+        >
+          Download your programmes to watch on the go.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-tihwqv-4 EboBR"
+        >
+          Save your data and watch all your favourites offline.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <img
+          class="jumbotron__Image-sc-tihwqv-5 ksyTgQ"
+          data-testid="jumbotron-image"
+          src="/images/misc/home-mobile.jpg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="jumbotron__Item-sc-tihwqv-0 dLfgbx"
+    data-testid="3-jumbotron-default-direction"
+  >
+    <div
+      class="jumbotron__Inner-sc-tihwqv-1 fNdoXS"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <h1
+          class="jumbotron__Title-sc-tihwqv-3 bKXkoU"
+        >
+          Watch everywhere.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-tihwqv-4 EboBR"
+        >
+          Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-tihwqv-2 KvzUU"
+      >
+        <img
+          class="jumbotron__Image-sc-tihwqv-5 ksyTgQ"
+          data-testid="jumbotron-image"
+          src="/images/misc/home-imac.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

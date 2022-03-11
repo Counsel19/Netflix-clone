@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Feature /> renders the <Feature /> component with only a title 1`] = `
+<div
+  class="feature__Container-sc-tsydtl-0 eEKEHo"
+>
+  <h1
+    class="feature__Title-sc-tsydtl-1 bcQSWe"
+  >
+    Unlimited Films, Tv Programs and more.
+  </h1>
+</div>
+`;
+
+exports[`<Feature /> renders the <Feature /> component with populated data 1`] = `
+<div
+  class="feature__Container-sc-tsydtl-0 eEKEHo"
+>
+  <h1
+    class="feature__Title-sc-tsydtl-1 bcQSWe"
+  >
+    Unlimited Films, Tv Programs and more.
+  </h1>
+  <h2
+    class="feature__SubTitle-sc-tsydtl-2 dwixDm"
+  >
+    Watch anywhere, Cancel at anytime
+  </h2>
+  <div
+    class="opt-form__Container-sc-q4a5n7-0 itoax"
+  >
+    <input
+      class="opt-form__Input-sc-q4a5n7-1 kGRwEn"
+      placeholder="Email Adress"
+    />
+    <button
+      class="opt-form__Button-sc-q4a5n7-2 laQfqN"
+    >
+      Try it Now
+      <img
+        alt="icon"
+        src="./images/icons/chevron-right.png"
+      />
+    </button>
+    <div
+      class="opt-form__Break-sc-q4a5n7-4 eCanAT"
+    />
+    <p
+      class="opt-form__Text-sc-q4a5n7-3 eYIOjO"
+    >
+      Ready to watch? Enter your email to create or restart your membership
+    </p>
+  </div>
+</div>
+`;

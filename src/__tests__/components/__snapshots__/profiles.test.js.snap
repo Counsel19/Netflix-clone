@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> renders the <Profile /> with populated data 1`] = `
+<div
+  class="profiles__Container-sc-1wt6s93-0 hAVqKu"
+>
+  <h1
+    class="profiles__Title-sc-1wt6s93-1 csBSZM"
+  >
+    Who is Watching
+  </h1>
+  <ul
+    class="profiles__List-sc-1wt6s93-2 kQuncN"
+  >
+    <li
+      class="profiles__Item-sc-1wt6s93-5 bPaofq"
+    >
+      <img
+        class="profiles__Picture-sc-1wt6s93-4 jDWBIK"
+        data-testid="profile-picture"
+        src="/images/users//images/users/1.jpg.png"
+      />
+      <p
+        class="profiles__Name-sc-1wt6s93-3 cxsnpd"
+      >
+        Counsel
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> renders the <Profiles /> with populated data but with a misc image 1`] = `
+<div
+  class="profiles__Container-sc-1wt6s93-0 hAVqKu"
+>
+  <h1
+    class="profiles__Title-sc-1wt6s93-1 csBSZM"
+  >
+    Who is Watching
+  </h1>
+  <ul
+    class="profiles__List-sc-1wt6s93-2 kQuncN"
+  >
+    <li
+      class="profiles__Item-sc-1wt6s93-5 bPaofq"
+    >
+      <img
+        class="profiles__Picture-sc-1wt6s93-4 jDWBIK"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-sc-1wt6s93-3 cxsnpd"
+      >
+        Counsel
+      </p>
+    </li>
+  </ul>
+</div>
+`;

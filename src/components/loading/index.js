@@ -3,13 +3,13 @@ import { Spinner, LockBody, ReleaseBody, Picture } from './styles/loading'
 
 export default function Loading({ src,  ...restProps }){
     return(
-        <Spinner>
+        <Spinner {...restProps }>
             <LockBody />
-            <Picture src={`/images/users/${src}.png`} />
+            <Picture src={`/images/users/${src}.png`} data-testid="loading-picture"/>
         </Spinner>
     )
 }
 
-Loading.ReleaseBody = function  LoadingReleaseBody() {
-    return <ReleaseBody />
+Loading.ReleaseBody = function  LoadingReleaseBody({ ...restProps }) {
+    return <ReleaseBody {...restProps}/>
 }

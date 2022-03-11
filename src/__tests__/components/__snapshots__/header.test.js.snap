@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders <Header /> component with background 1`] = `
+<div
+  class="header__Background-sc-10nv7v6-0 eIqvVw"
+  data-testid="background-shown"
+  src="/images/users/1.jpg"
+>
+   
+  <div
+    class="header__Container-sc-10nv7v6-10 kxtMcl"
+  >
+     
+    <a
+      href="/"
+    >
+      <img
+        class="header__Logo-sc-10nv7v6-9 ByNmX"
+        data-testid="logo"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      class="header__ButtonLink-sc-10nv7v6-11 iEAcCu"
+      href="/signin"
+    >
+       
+      Sign In 
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders <Header /> component with background but withuot a source 1`] = `
+<div
+  class="header__Background-sc-10nv7v6-0 bQlFV"
+  data-testid="background-shown"
+>
+   
+  <div
+    class="header__Container-sc-10nv7v6-10 kxtMcl"
+  >
+     
+    <a
+      href="/"
+    >
+      <img
+        class="header__Logo-sc-10nv7v6-9 ByNmX"
+        data-testid="logo"
+        src="logo.svg"
+      />
+    </a>
+    <a
+      class="header__ButtonLink-sc-10nv7v6-11 iEAcCu"
+      href="/signin"
+    >
+       
+      Sign In 
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders <Header /> component without background 1`] = `
+<div
+  class="header__Container-sc-10nv7v6-10 kxtMcl"
+>
+   
+  <a
+    href="/"
+  >
+    <img
+      class="header__Logo-sc-10nv7v6-9 ByNmX"
+      data-testid="logo"
+      src="logo.svg"
+    />
+  </a>
+  <a
+    class="header__ButtonLink-sc-10nv7v6-11 iEAcCu"
+    href="/signin"
+  >
+     
+    Sign In 
+  </a>
+</div>
+`;
+
+exports[`<Header /> renders the <Header.Feature /> component with populated data 1`] = `
+<div
+  class="header__Container-sc-10nv7v6-10 header__Feature-sc-10nv7v6-12 kxtMcl kVoDtI"
+>
+  <h2
+    class="header__FeatureCallOut-sc-10nv7v6-15 hVyXBK"
+  >
+    Watch Joker Now
+  </h2>
+  <p
+    class="header__Text-sc-10nv7v6-14 kGDPTn"
+  >
+    You create a new user in your Firebase project by calling the createUserWithEmailAndPassword method or by signing in a user for the first time using a federated identity provider, such as Google Sign-In or Facebook Login.
+  </p>
+  <button
+    class="header__PlayButton-sc-10nv7v6-13 gUTvSk"
+  >
+    Play
+  </button>
+</div>
+`;
+
+exports[`<Header /> renders the <Header.Frame /> and children 1`] = `
+<div
+  class="header__Container-sc-10nv7v6-10 kxtMcl"
+>
+   
+  <div
+    class="header__Group-sc-10nv7v6-2 dBbyGb"
+  >
+     
+    <a
+      href="/"
+    >
+      <img
+        class="header__Logo-sc-10nv7v6-9 ByNmX"
+        src="logo.svg"
+      />
+    </a>
+    <p
+      class="header__Link-sc-10nv7v6-3 cOWspU"
+    >
+      Series
+    </p>
+    <p
+      class="header__Link-sc-10nv7v6-3 kZvceU"
+    >
+      Films
+    </p>
+  </div>
+  <div
+    class="header__Group-sc-10nv7v6-2 dBbyGb"
+  >
+     
+    <div
+      class="header__Search-sc-10nv7v6-4 hcUwOr"
+    >
+      <button
+        class="header__SearchIcon-sc-10nv7v6-5 cPEvlY"
+        data-testid="search-icon"
+      >
+        <img
+          alt="Search"
+          src="/images/icons/search.png"
+        />
+      </button>
+      <input
+        class="header__SearchInput-sc-10nv7v6-6 eywgJe"
+        data-testid="search-input"
+        placeholder="Search films and series"
+        value="Documentaries"
+      />
+    </div>
+    <div
+      class="header__Profile-sc-10nv7v6-8 dNJMSl"
+    >
+       
+      <button
+        class="header__Picture-sc-10nv7v6-1 hGyOBF"
+        data-testid="header-image"
+        src="/images/users//images.user/i.jpg.png"
+      />
+      <div
+        class="header__Dropdown-sc-10nv7v6-7 jTnsaB"
+      >
+         
+        <div
+          class="header__Group-sc-10nv7v6-2 dBbyGb"
+        >
+           
+          <button
+            class="header__Picture-sc-10nv7v6-1 hGyOBF"
+            data-testid="header-image"
+            src="/images/users//images.user/i.jpg.png"
+          />
+          <p
+            class="header__Link-sc-10nv7v6-3 kZvceU"
+          >
+            Counsel
+          </p>
+        </div>
+        <div
+          class="header__Group-sc-10nv7v6-2 dBbyGb"
+        >
+           
+          <p
+            class="header__Link-sc-10nv7v6-3 kZvceU"
+          >
+            Sign Out
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
