@@ -27,6 +27,5 @@ export default function useContent( target ) {
     getData()
 
   }, []);
-
   return {[target]: content}; 
 }
